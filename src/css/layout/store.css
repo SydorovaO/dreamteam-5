@@ -72,40 +72,17 @@
     align-items: center;
     gap: 8px;
 
+    white-space: nowrap;
     font-size: 32px;
     line-height: calc(39 / 32);
 
     margin-bottom: 8px;
   }
 
-  .store-compliments-after:after {
+  .store-list-item-title:after {
     content: '';
     display: block;
-    width: 120px;
-    height: 1px;
-    background-color: #000000;
-  }
-
-  .store-bouquets-s-after::after {
-    content: '';
-    display: block;
-    width: 84px;
-    height: 1px;
-    background-color: #000000;
-  }
-
-  .store-bouquets-m-after::after {
-    content: '';
-    display: block;
-    width: 73px;
-    height: 1px;
-    background-color: #000000;
-  }
-
-  .store-bouquets-l-after::after {
-    content: '';
-    display: block;
-    width: 85px;
+    width: 100%;
     height: 1px;
     background-color: #000000;
   }
@@ -150,37 +127,5 @@
   .store-list-item-text {
     font-size: 28px;
     line-height: calc(34 / 28);
-  }
-
-  .store-compliments-after:after {
-    content: '';
-    display: block;
-    width: 335px;
-    height: 1px;
-    background-color: #000000;
-  }
-
-  .store-bouquets-s-after::after {
-    content: '';
-    display: block;
-    width: 300px;
-    height: 1px;
-    background-color: #000000;
-  }
-
-  .store-bouquets-m-after::after {
-    content: '';
-    display: block;
-    width: 286px;
-    height: 1px;
-    background-color: #000000;
-  }
-
-  .store-bouquets-l-after::after {
-    content: '';
-    display: block;
-    width: 299px;
-    height: 1px;
-    background-color: #000000;
   }
 }
